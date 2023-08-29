@@ -18,11 +18,21 @@
 			"problemMatcher": [
 				"$tsc-watch"
 			],
+			"group": "build",
+			"label": "tsc: watch - Day10/tsconfig.json"
+		},
+		{
+			"type": "typescript",
+			"tsconfig": "Day11/tsconfig.json",
+			"option": "watch",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
 			"group": {
 				"kind": "build",
 				"isDefault": true
 			},
-			"label": "tsc: watch - Day10/tsconfig.json"
+			"label": "tsc: watch - Day11/tsconfig.json"
 		}
 	]
 }
